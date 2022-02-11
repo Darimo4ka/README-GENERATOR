@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const util = require("util");
 const fs = require("fs");
 
-const generatorMarkdown = require("./util/generateMarkdown");
+const generatorMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -52,7 +52,8 @@ const questions = [
         Message:"Contact information for inquiries?",
         name:"Question"
 
-    },
+    }
+
 ];
 
 // TODO: Create a function to write README file
