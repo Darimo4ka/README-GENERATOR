@@ -5,11 +5,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Darima Badmatsyrenova",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2"
   },
   "keywords": [],
-  "description": ""
+  "description": "README PROJECT"
 }

@@ -9,48 +9,58 @@ const generatorMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type:"input",
-        Message:"what is the title of the project?",
+        message:"what is the title of the project?",
         name:"Title"
     
     }, {
         type:"input",
-        Message: "What is project about? Give detailed description explaining the what, why, and how of your project. Use the following questions as a guide: 1. What was your motivation?  2. Why did you build this project? 3.What problem does it solve? 4.What did you learn?",
+        message: "What is project about? Give detailed description explaining the what, why, and how of your project. Use the following questions as a guide: 1. What was your motivation?  2. Why did you build this project? 3.What problem does it solve? 4.What did you learn?",
         name: "Description"
     
     }, {
         type: "input",
-        Message: "Table of Contents.",
+        message: "Table of Contents.",
         name:"Table of Contents"
     
     },{
         type: "input",
-        Message: "what the user need to install to run this app?",
+        message: "what the user need to install to run this app?",
         name:"Installation"
     
     }, {
         type:"input",
-        Message: "How is the app used?",
+        message: "How is the app used?",
         name:"Usage"
     
     }, {
         type:"input",
-        Message:"What licenses are being used?",
+        message:"What licenses are being used?",
         name:"License"
 
-    },{
+    }, {
         type:"input",
-        Message:"Who contributed to this project?",
+        message:"Who contributed to this project?",
         name:"Contributing"
 
+    }, {
+        type:"input",
+        message:"What commands are needed to test this app?",
+        name:"Tests"
+
+    },
+    {
+        type:"input",
+        message:"Contact information for inquiries.",
+        name:"Questions"
     },{
         type:"input",
-        Message:"What commands are needed to test this app?",
-        name:"Tests"
+        message:"What is your Github username?",
+        name:"Username"
 
     },{
         type:"input",
-        Message:"Contact information for inquiries?",
-        name:"Question"
+        message:"What is your email?",
+        name:"email"
 
     }
 
